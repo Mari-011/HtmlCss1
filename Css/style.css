@@ -1,0 +1,107 @@
+            /*
+
+
+            1-Common Styles
+            2-General Styles
+            3-Sections
+            3.0-Header Section
+            3.1-Home Section
+            3.2-About Section
+            3.3-Portfolio Section
+            3.4-Services Section
+            3.5-Prices Section
+            3.6-Team Section
+            3.7-Blog Page
+            3.8-Contact Section
+            3.9-Footer Section
+
+            */
+
+
+
+            /* 1-Common Style
+
+            1-container
+            2-opacity hover
+            3-section header
+            4-section padding
+            5-hover effect 1 (left to right)
+            6-hover rffect 2 (top to bottom)
+
+
+
+            */
+
+
+
+
+            /* 2-General Css Styles */
+            *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+            }
+
+            body {
+            font-family: 'Varela Round', sans-serif;
+            }
+
+            .container{
+            height: 30px;
+            width: 80%;
+
+            margin: auto;
+            }
+            /* .
+            clear{
+            clear: both;
+            }
+            */
+
+            /* 3-Section Styles */
+
+            /* 3.0-Header */
+            .header{
+            background-color: gray;
+            height: 60px;
+            }
+            .header .header_content{
+            overflow: hidden;
+            }
+            .header .logo{
+            color: white;
+            width: 35%;
+            float: left;
+
+            }
+            .header .logo img{
+            width: 30%;
+            }
+            .header .navbar{
+            list-style: none;
+            /* background-color: blueviolet; */
+            width: 65%;
+            float: left;
+
+            }
+            .header .navbar li{
+            display: inline-block;
+
+            }
+            .header .navbar li a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            display: block;
+            padding: 15px 15px;
+            }
+            /* 3.1-Home Section */
+            /* 3.2-About Section */
+            /* 3.3-Portfolio Section */
+            /* 3.4-Services Section */
+            /* 3.5-Prices Section */
+            /* 3.6-Team Section */
+            /* 3.7-Blog Page */
+            /* 3.8-Contact Section */
+            /* 3.9-Footer Section
