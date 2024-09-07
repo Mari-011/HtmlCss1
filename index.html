@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="Css/style.css">
     <title>Document</title>
 </head>
@@ -17,21 +19,42 @@
         <div class="container">
             <div class="header_content">
                 <div class="logo">
-                    <img src="images/logo.png" alt="Logo Image" draggable="false">
+                    <img src="images/logo-alt.png" alt="Logo Image" draggable="false">
                 </div>
                 <ul class="navbar">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="#" class="active">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Prices</a></li>
                     <li><a href="#">Team</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li class="dropdown"><a href="#">Blog</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">blog post</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
                 </ul>
 
             </div>
-            <!-- <div class="clear"></div> -->
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <!-- Home -->
+    <div class="home">
+        <div class="overlay">
+            <div class="home-content">
+                <h1 class="home-title">we are creative agency</h1>
+                <p class="home-desc">
+                    Morbi mattis felis at nunc.Duis viverra diam non justo.In nisl .Nullam sit amet magna gravida
+                    vehicula.Mauris tincidunt sem sed arcu
+                    .Nunc posuere</p>
+                <button class="btn btn-started hover-opacity">get started !</button>
+                <button class="btn btn-learn hover-opacity">Learn more !</button>
+            </div>
         </div>
     </div>
     <!-- <i class="fa fa-twitter-square"></i>
