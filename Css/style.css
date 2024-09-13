@@ -949,7 +949,13 @@ color: white;
 .footer-links li a i{
   line-height: 40px;
 }
-/* .footer img{
-  position: absolute;
-  
-} */
+@media (max-width: 600px) {
+  /* CSS لتنسيق خاص بشاشات الجوال */
+  body {
+    font-size: 14px; /* مثال لتغيير حجم الخط */
+  }
+  .container {
+    padding: 10px; /* مثال لتغيير تباعد المحتوى */
+  }
+  /* أضف أي قواعد أخرى تريد تطبيقها على الشاشات الصغيرة */
+}
