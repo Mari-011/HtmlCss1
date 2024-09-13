@@ -1,2 +1,9 @@
 https://fontawesome.bootstrapcheatsheets.com/#
 https://github.com/Mari-011
+git config --global user.name "Mari-011"
+git config --global user.email "mohmari201@gmail.com"
+git init
+git add .
+git commit -m "d"
+git remote=>repostry
+git push -u origin master
