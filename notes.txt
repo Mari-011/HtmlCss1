@@ -1,5 +1,8 @@
 https://fontawesome.bootstrapcheatsheets.com/#
+https://youtube.com/playlist?list=PLtFbQRDJ11kFJFzd5UNy5vSnkbR031vG9&si=3vhyRWdWVCgVpFVF
+https://yt5s.io/en113/youtube-to-mp4
 https://github.com/Mari-011
+
 git config --global user.name "Mari-011"
 git config --global user.email "mohmari201@gmail.com"
 git init
